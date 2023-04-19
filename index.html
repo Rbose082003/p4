@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- FONTAWESOME CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- OUR MAIN CSS -->
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="./logo.png">
+    <title>Game Store</title>
+</head>
+<body>
+    
+    <!-- NAVBAR START -->
+    
+    <!--Main Navigation-->
+<header>
+ 
+
+  <!-- Navbar -->
+  <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#sidebarMenu"
+        aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">
+        <img src="./logo.png" height="30PX" width="30PX"
+          loading="lazy" />
+      </a>
+      <!-- Search form -->
+      <form class="d-none d-md-flex input-group w-auto my-auto">
+        <input autocomplete="off" type="search" class="form-control rounded"
+          placeholder='Search for apps and games' style="min-width: 225px;" />
+        <span class="input-group-text border-0"><i class="fas fa-search"></i></span>
+      </form>
+
+      <!-- Right links -->
+      <ul class="navbar-nav ms-auto d-flex flex-row">
+        <!-- Notification dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link me-3 me-lg-0 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink"
+            role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-bell"></i>
+            <span class="badge rounded-pill badge-notification bg-danger">1</span>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+            <li>
+              <a class="dropdown-item" href="#">Some news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Another news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </li>
+          </ul>
+        </li>
+
+        <!-- Icon -->
+        <li class="nav-item">
+          <a class="nav-link me-3 me-lg-0" href="#">
+            <i class="fas fa-fill-drip"></i>
+          </a>
+        </li>
+        <!-- Icon -->
+        <li class="nav-item me-3 me-lg-0">
+          <a class="nav-link" href="#">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+
+        <!-- Icon dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link me-3 me-lg-0 dropdown-toggle hidden-arrow" href="#" id="navbarDropdown"
+            role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+            <i class="united kingdom flag m-0"></i>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+            <li>
+              <a class="dropdown-item" href="#"><i class="united kingdom flag"></i>English
+                <i class="fa fa-check text-success ms-2"></i></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><i class="flag-poland flag"></i>Polski</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><i class="flag-china flag"></i>中文</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><i class="flag-japan flag"></i>日本語</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><i class="flag-germany flag"></i>Deutsch</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><i class="flag-france flag"></i>Français</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><i class="flag-spain flag"></i>Español</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><i class="flag-russia flag"></i>Русский</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><i class="flag-portugal flag"></i>Português</a>
+            </li>
+          </ul>
+        </li>
+
+        <!-- Avatar -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle hidden-arrow d-flex align-items-center" href="#"
+            id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img (31).webp" class="rounded-circle"
+              height="22" alt="Avatar" loading="lazy" />
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+            <li>
+              <a class="dropdown-item" href="#">My profile</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Settings</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Logout</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+</header>
+<!--Main Navigation-->
+
+<!--Main layout-->
+<main style="margin-top: 58px;">
+  <div class="container pt-4"></div>
+</main>
+<!--Main layout-->
+   
+      
+    <!-- NAVBAR END -->
+    
+    <!-- carousel start -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./image.jpeg" height="550px" width="450px" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>What’s trending in entertainment</h5>
+              <p>Explore an action-packed month with new TV shows and movies</p>
+              <button>Explore</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./c2.jpeg" height="550px" width="450px" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Destiny 2: Lightfall</h5>
+              <p>Lightfall is here,unlock strad and discover neomuna</p>
+              <button>Get in store app</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./c3.jpeg"height="550px" width="450px" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Wo Long: Fallen Dynasty</h5>
+              <p>From the depths of darkness,a dragon soars</p>
+              <button>Get in store app</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+ 
+    <!-- carousel end -->
+    <!-- product section start -->
+    <section id="Apps">
+<div class="container">
+<h2 class="text-center py-5">Apps</h2>
+</div>
+<div class="container" height="100px" width="100px">
+<div class="row">
+<div class="col-md-2"><div class="card card-hight" style="width: 9.5rem;">
+  <img class="card-pict" src="https://store-images.s-microsoft.com/image/apps.6899.14495311847124170.e89a4dce-fd9a-4a10-b8e4-a6c3aa1c055e.bcea8b9e-9a72-45eb-a2fc-e265b7dc1915?w=100 "  height="150px"    width="151px"          class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Hotstar</h5>
+    <p class="card-text">Productivity</p>
+    <a href="#" class="btn btn-outline-primary">Get in the store app</a>
+  </div>
+</div></div>
+<div class="col-md-2"><div class="card card-hight" style="width: 9.5rem;">
+  <img class="card-pict" src="./i2.png" height="150px" width="150px"   class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">itunes</h5>
+    <p class="card-text">music</p>
+    <a href="#" class="btn btn-outline-primary">Get in the store app</a>
+  </div>
+</div></div>
+<div class="col-md-2"><div class="card card-hight" style="width: 9.5rem;">
+  <img class="card-pict" src="./i3.png" height="150"px width="150px" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Netflix</h5>
+    <p class="card-text">Entertainment</p>
+    <a href="#" class="btn btn-outline-primary">Get in store app</a>
+  </div>
+</div></div>
+<div class="col-md-2"><div class="card card-hight" style="width: 9.5rem;">
+  <img class="card-pict" src="./i4.png" height="150px" width="150px" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">HP smart</h5>
+    <p class="card-text">Utilities&Tools</p>
+    <a href="#" class="btn btn-outline-primary">Get in store app</a>
+  </div>
+</div></div>
+    <div class="col-md-2"><div class="card card-hight" style="width: 9.5rem;">
+      <img class="card-pict" src="./p5.png" height="150px" width="150px"   class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Xbox</h5>
+        <p class="card-text">Productivity</p>
+        <a href="#" class="btn btn-outline-primary">Get in the store app</a>
+      </div>
+    </div></div>
+    <div class="col-md-2"><div class="card card-hight" style="width: 9.5rem;">
+      <img class="card-pict" src="./p9.png" height="150px" width="150px"         class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">icloud</h5>
+        <p class="card-text">tools</p>
+        <a href="#" class="btn btn-outline-primary">Get in the store app</a>
+      </div>
+    </div></div>
+    <div class="col-md-2"><div class="card card-hight" style="width: 9.5rem;">
+      <img class="card-pict" src="./p7.png" height="150px" width="150px"           class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Spotify</h5>
+        <p class="card-text">music</p>
+        <a href="#" class="btn btn-outline-primary">Get in store app</a>
+      </div>
+    </div></div>
+    <div class="col-md-2"><div class="card card-hight" style="width: 9.5rem;">
+      <img class="card-pict" src="./p8.png" height="150px" width="150px"      class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">whatsapp</h5>
+        <p class="card-text">Entertainment</p>
+        <a href="#" class="btn btn-outline-primary">Get in store app</a>
+      </div>
+    </div></div>
+    <div class="col-md-2"><div class="card card-hight" style="width: 9.5rem;">
+      <img class="card-pict" src="./L1.png" height="150"px width="150px" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">lenono</h5>
+        <p class="card-text">Productivity</p>
+        <a href="#" class="btn btn-outline-primary">Get in store app</a>
+      </div>
+    </div></div>
+
+    <div class="col-md-2"><div class="card card-hight" style="width: 9.5rem;">
+      <img class="card-pict" src="./d1.png" height="150"px width="150px" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Discord</h5>
+        <p class="card-text">Social</p>
+        <a href="#" class="btn btn-outline-primary">Get in store app</a>
+      </div>
+    </div></div>
+
+    <div class="col-md-2"><div class="card card-hight" style="width: 9.5rem;">
+      <img class="card-pict" src="./g1.jpeg" height="150"px width="150px" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Github</h5>
+        <p class="card-text">Social</p>
+        <a href="#" class="btn btn-outline-primary">Get in store app</a>
+      </div>
+    </div></div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="col-md-2"><div class="card card-hight" style="width: 9.5rem;">
+      <img class="card-pict" src="./p10.png" height="150px" width="150px"      class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">prime</h5>
+        <p class="card-text">Entertainment</p>
+        <a href="#" class="btn btn-outline-primary">Get in store app</a>
+      </div></div>
+      
+    </div>
+    </div>
+</section>
+<section id="Realistic games">
+    <div class="container">
+    <h2 class="text-center py-5">Realistic games</h2>
+   <!-- 2nd carousel s -->
+   <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <iframe width="560" height="315" src ="https://www.youtube.com/embed/dzF0PqpNcJs?start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+       <div> <img src="./2c1.png" width="80px" height="80px">  Battlegrounds mobile india<p><a href="#" class="btn btn-light">Install</a></p>
+       </div>
+       <div class="carousel-item">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/L8jYXhhmN7E?start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p><img src="./v1.png" width="50px" height="50px"> Valorant</p>
+      </div>
+      <div class="carousel-item">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/H2Y8XCe7F9E?start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <P><img src="./N1.jpg" width="80px" height="80px"> Need for speed </P> 
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+   <!-- 2nd carousel e -->
+    </div>
+</section>
+
+    <!-- product section end -->
+    <!-- 2nd product section start -->
+    <section id="Xbox Consoles">
+      <div class="container">
+      <h1 class="text-center py-5"><strong> Xbox Consoles</strong> </h1>
+      </div>
+      <div class="container" height="100px" width="100px">
+      <div class="row">
+      <div class="col-md-3"><div class="card card-hight" style="width: 15rem;">
+        <img class="card-pict" src="./x1.webp"                class="card-img-top" alt="...">
+        <div class="card-body">
+          <h2 class="card-title">Xbox Series X</h2>
+          <p class="card-text">Next-gen performance in the smallest Xbox ever: 
+            All-digital gaming experience
+            Custom NVME SSD powered by Xbox Velocity Architecture
+            Next-gen frame rates up to 120FPS
+            </p>
+          <a href="#" class="btn btn-dark">Buy Now</a>
+        </div>
+      </div></div>
+      <div class="col-md-3"><div class="card card-hight" style="width: 15rem;">
+        <img class="card-pict" src="./x2.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h2 class="card-title">Xbox Series X - Forza</h2>
+          <p cla:ss="card-text">Next-gen performance in the smallest Xbox ever: 
+            All-digital gaming experience
+            Custom NVME SSD powered by Xbox Velocity Architecture
+            Next-gen frame rates up to 120FPS</p>
+          <a href="#" class="btn btn-dark">Buy Now</a>
+        </div>
+      </div></div>
+      <div class="col-md-3"><div class="card card-hight" style="width: 15rem;">
+        <img class="card-pict" src="./x3.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h2 class="card-title">Xbox Series S</h2>
+          <p class="card-text">Next-gen performance in the smallest Xbox ever: 
+            All-digital gaming experience
+            Custom NVME SSD powered by Xbox Velocity Architecture
+            Next-gen frame rates up to 120FPS</p>
+          <a href="#" class="btn btn-dark">Buy Now</a>
+        </div>
+      </div></div>
+      <div class="col-md-3"><div class="card card-hight" style="width: 15rem;">
+        <img class="card-pict" src="./x4.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h2 class="card-title">Gilded Hunter Bundle</h2>
+          <p class="card-text">Next-gen performance in the smallest Xbox ever: 
+            All-digital gaming experience
+            Custom NVME SSD powered by Xbox Velocity Architecture
+            Next-gen frame rates up to 120FPS</p>
+          <a href="#" class="btn btn-dark">Buy Now</a>
+        </div>
+      </div></div>
+      
+      </div>
+      </div>
+
+    <!-- 2nd product section end -->
+    <h1 class="text-center main-text py-5">Thank you for visiting our website</h1>
+    <!-- hero section start -->
+    <div class="container">
+<div class="row">
+          <div class="col-md-6  my-0">
+            
+              <p class="py-4"><h1>Final word</h1>
+                If you’re putting the right time and energy into launching your site as you did in creating it, you’ll create a successful campaign that generates excitement and intrigue, resulting in site visits and greater business opportunities.
+                
+                Just make sure you use graphics that resonate with your audience.</p>
+              
+          </div>
+          <div class="col-md-6">
+              <img src="./k1.avif" height="500px" width="85px"  class="w-100 p-5" alt="">
+
+
+          </div>
+
+      </div>
+  </div>
+
+
+    <!-- hero section end -->
+   
+     <!-- Bootstrap Js -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+     crossorigin="anonymous"></script>
+</body>
+</html>
